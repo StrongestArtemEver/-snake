@@ -4,9 +4,31 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <RootNamespace>_snake</RootNamespace>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\ARCADECLASSIC.TTF" />
+    <None Remove="assets\Body.png" />
+    <None Remove="assets\DeadBody.png" />
+    <None Remove="assets\DeadHead.png" />
+    <None Remove="assets\Empty.png" />
+    <None Remove="assets\Food.png" />
+    <None Remove="assets\Head.png" />
+    <None Remove="assets\snake_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\ARCADECLASSIC.TTF" />
+    <Resource Include="assets\Body.png" />
+    <Resource Include="assets\DeadBody.png" />
+    <Resource Include="assets\DeadHead.png" />
+    <Resource Include="assets\Empty.png" />
+    <Resource Include="assets\Food.png" />
+    <Resource Include="assets\Head.png" />
+    <Resource Include="assets\snake_icon.ico" />
+  </ItemGroup>
 
 </Project>
