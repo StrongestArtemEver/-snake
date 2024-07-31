@@ -13,7 +13,7 @@ namespace _snake
 
         public Position Translate(Direction dir)
         {
-            return new Position(Row + dir.RowOffset,Col +  dir.ColOffset);
+            return new Position(Row + dir.RowOffset, Col +  dir.ColOffset);
         }
 
         public override bool Equals(object obj)
